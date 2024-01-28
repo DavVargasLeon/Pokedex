@@ -9,21 +9,38 @@
 /* Begin PBXBuildFile section */
 		7F2FBBCA2B6483300044F214 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FBBC92B6483300044F214 /* AppDelegate.swift */; };
 		7F2FBBCC2B6483300044F214 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FBBCB2B6483300044F214 /* SceneDelegate.swift */; };
-		7F2FBBCE2B6483300044F214 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FBBCD2B6483300044F214 /* ViewController.swift */; };
-		7F2FBBD12B6483300044F214 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FBBCF2B6483300044F214 /* Main.storyboard */; };
+		7F2FBBCE2B6483300044F214 /* PokedexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FBBCD2B6483300044F214 /* PokedexViewController.swift */; };
 		7F2FBBD32B6483320044F214 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FBBD22B6483320044F214 /* Assets.xcassets */; };
 		7F2FBBD62B6483320044F214 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F2FBBD42B6483320044F214 /* LaunchScreen.storyboard */; };
+		7F2FBBDF2B64840A0044F214 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FBBDE2B64840A0044F214 /* UIView+Extension.swift */; };
+		7F2FBBE62B6485F70044F214 /* CombineMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 7F2FBBE52B6485F70044F214 /* CombineMoya */; };
+		7F2FBBE82B6485F70044F214 /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 7F2FBBE72B6485F70044F214 /* Moya */; };
+		7F2FBBEA2B6485F70044F214 /* ReactiveMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 7F2FBBE92B6485F70044F214 /* ReactiveMoya */; };
+		7F2FBBEC2B6485F70044F214 /* RxMoya in Frameworks */ = {isa = PBXBuildFile; productRef = 7F2FBBEB2B6485F70044F214 /* RxMoya */; };
+		7F2FBBEE2B64860C0044F214 /* NetworkManagerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FBBED2B64860C0044F214 /* NetworkManagerService.swift */; };
+		7F2FBBF02B6486C30044F214 /* NetworkRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FBBEF2B6486C30044F214 /* NetworkRouter.swift */; };
+		7F2FBBF22B6487760044F214 /* Network+RequesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FBBF12B6487760044F214 /* Network+RequesExtension.swift */; };
+		7F2FBBF52B64BBB70044F214 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 7F2FBBF42B64BBB70044F214 /* Kingfisher */; };
+		7F2FBBF72B64DB890044F214 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FBBF62B64DB890044F214 /* UILabel+Extension.swift */; };
+		7F2FBBF92B64EAF80044F214 /* PokemonInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FBBF82B64EAF80044F214 /* PokemonInfoModel.swift */; };
+		7F2FBBFB2B65D7720044F214 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F2FBBFA2B65D7720044F214 /* UIButton+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7F2FBBC62B6483300044F214 /* Pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F2FBBC92B6483300044F214 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F2FBBCB2B6483300044F214 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7F2FBBCD2B6483300044F214 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7F2FBBD02B6483300044F214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F2FBBCD2B6483300044F214 /* PokedexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokedexViewController.swift; sourceTree = "<group>"; };
 		7F2FBBD22B6483320044F214 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F2FBBD52B6483320044F214 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7F2FBBD72B6483320044F214 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F2FBBDE2B64840A0044F214 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		7F2FBBED2B64860C0044F214 /* NetworkManagerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagerService.swift; sourceTree = "<group>"; };
+		7F2FBBEF2B6486C30044F214 /* NetworkRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkRouter.swift; sourceTree = "<group>"; };
+		7F2FBBF12B6487760044F214 /* Network+RequesExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Network+RequesExtension.swift"; sourceTree = "<group>"; };
+		7F2FBBF62B64DB890044F214 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		7F2FBBF82B64EAF80044F214 /* PokemonInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonInfoModel.swift; sourceTree = "<group>"; };
+		7F2FBBFA2B65D7720044F214 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +48,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7F2FBBE82B6485F70044F214 /* Moya in Frameworks */,
+				7F2FBBE62B6485F70044F214 /* CombineMoya in Frameworks */,
+				7F2FBBEC2B6485F70044F214 /* RxMoya in Frameworks */,
+				7F2FBBEA2B6485F70044F214 /* ReactiveMoya in Frameworks */,
+				7F2FBBF52B64BBB70044F214 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +78,45 @@
 		7F2FBBC82B6483300044F214 /* Pokedex */ = {
 			isa = PBXGroup;
 			children = (
+				7F2FBBDD2B6483FB0044F214 /* Extensions */,
+				7F2FBBE32B6485C30044F214 /* Network */,
+				7F2FBBE02B6485000044F214 /* Models */,
+				7F2FBBCD2B6483300044F214 /* PokedexViewController.swift */,
 				7F2FBBC92B6483300044F214 /* AppDelegate.swift */,
 				7F2FBBCB2B6483300044F214 /* SceneDelegate.swift */,
-				7F2FBBCD2B6483300044F214 /* ViewController.swift */,
-				7F2FBBCF2B6483300044F214 /* Main.storyboard */,
 				7F2FBBD22B6483320044F214 /* Assets.xcassets */,
 				7F2FBBD42B6483320044F214 /* LaunchScreen.storyboard */,
 				7F2FBBD72B6483320044F214 /* Info.plist */,
 			);
 			path = Pokedex;
+			sourceTree = "<group>";
+		};
+		7F2FBBDD2B6483FB0044F214 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				7F2FBBDE2B64840A0044F214 /* UIView+Extension.swift */,
+				7F2FBBF62B64DB890044F214 /* UILabel+Extension.swift */,
+				7F2FBBFA2B65D7720044F214 /* UIButton+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7F2FBBE02B6485000044F214 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F2FBBF82B64EAF80044F214 /* PokemonInfoModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7F2FBBE32B6485C30044F214 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7F2FBBED2B64860C0044F214 /* NetworkManagerService.swift */,
+				7F2FBBEF2B6486C30044F214 /* NetworkRouter.swift */,
+				7F2FBBF12B6487760044F214 /* Network+RequesExtension.swift */,
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +135,13 @@
 			dependencies = (
 			);
 			name = Pokedex;
+			packageProductDependencies = (
+				7F2FBBE52B6485F70044F214 /* CombineMoya */,
+				7F2FBBE72B6485F70044F214 /* Moya */,
+				7F2FBBE92B6485F70044F214 /* ReactiveMoya */,
+				7F2FBBEB2B6485F70044F214 /* RxMoya */,
+				7F2FBBF42B64BBB70044F214 /* Kingfisher */,
+			);
 			productName = Pokedex;
 			productReference = 7F2FBBC62B6483300044F214 /* Pokedex.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +170,10 @@
 				Base,
 			);
 			mainGroup = 7F2FBBBD2B6483300044F214;
+			packageReferences = (
+				7F2FBBE42B6485F70044F214 /* XCRemoteSwiftPackageReference "Moya" */,
+				7F2FBBF32B64BBB70044F214 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 7F2FBBC72B6483300044F214 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +190,6 @@
 			files = (
 				7F2FBBD62B6483320044F214 /* LaunchScreen.storyboard in Resources */,
 				7F2FBBD32B6483320044F214 /* Assets.xcassets in Resources */,
-				7F2FBBD12B6483300044F214 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +200,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F2FBBCE2B6483300044F214 /* ViewController.swift in Sources */,
+				7F2FBBCE2B6483300044F214 /* PokedexViewController.swift in Sources */,
+				7F2FBBF92B64EAF80044F214 /* PokemonInfoModel.swift in Sources */,
 				7F2FBBCA2B6483300044F214 /* AppDelegate.swift in Sources */,
+				7F2FBBFB2B65D7720044F214 /* UIButton+Extension.swift in Sources */,
+				7F2FBBDF2B64840A0044F214 /* UIView+Extension.swift in Sources */,
+				7F2FBBEE2B64860C0044F214 /* NetworkManagerService.swift in Sources */,
 				7F2FBBCC2B6483300044F214 /* SceneDelegate.swift in Sources */,
+				7F2FBBF02B6486C30044F214 /* NetworkRouter.swift in Sources */,
+				7F2FBBF72B64DB890044F214 /* UILabel+Extension.swift in Sources */,
+				7F2FBBF22B6487760044F214 /* Network+RequesExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		7F2FBBCF2B6483300044F214 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7F2FBBD02B6483300044F214 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		7F2FBBD42B6483320044F214 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -296,7 +357,6 @@
 				INFOPLIST_FILE = Pokedex/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -323,7 +383,6 @@
 				INFOPLIST_FILE = Pokedex/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -361,6 +420,53 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7F2FBBE42B6485F70044F214 /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.3;
+			};
+		};
+		7F2FBBF32B64BBB70044F214 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7F2FBBE52B6485F70044F214 /* CombineMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F2FBBE42B6485F70044F214 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = CombineMoya;
+		};
+		7F2FBBE72B6485F70044F214 /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F2FBBE42B6485F70044F214 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
+		};
+		7F2FBBE92B6485F70044F214 /* ReactiveMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F2FBBE42B6485F70044F214 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = ReactiveMoya;
+		};
+		7F2FBBEB2B6485F70044F214 /* RxMoya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F2FBBE42B6485F70044F214 /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = RxMoya;
+		};
+		7F2FBBF42B64BBB70044F214 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7F2FBBF32B64BBB70044F214 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7F2FBBBE2B6483300044F214 /* Project object */;
 }

@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Pokedex
 //
-//  Created by Mitchell Samaniego on 26/01/24.
+//  Created by David Vargas on 26/01/24.
 //
 
 import UIKit
