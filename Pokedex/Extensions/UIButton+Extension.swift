@@ -11,7 +11,6 @@ import UIKit
 extension UIButton {
     
     func setButton() {
-        self.setTitle("Mostrar Pokemón", for: .normal)
         self.backgroundColor = .green.withAlphaComponent(0.4)
         self.setTitleColor(.black, for: .normal)
         self.titleLabel?.font = .systemFont(ofSize: 30, weight: .bold)

@@ -174,6 +174,7 @@ class PokedexViewController: UIViewController {
         
         pokeImageView.contentMode = .scaleAspectFit
         
+        showPokemonButton.setTitle("Mostrar Pokemón", for: .normal)
         showPokemonButton.setButton()
         showPokemonButton.addTarget(self, action: #selector(showNewPokemon), for: .touchUpInside)
     }
